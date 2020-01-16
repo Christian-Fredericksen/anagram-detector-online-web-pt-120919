@@ -9,6 +9,7 @@ class Anagram
   end
   
   
-  def match
+  def self.match
+    
   
 end 
