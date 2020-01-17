@@ -14,7 +14,9 @@ class Anagram
     # new_anagrams = anagrams.split("")
     # new_word.sort == new_anagrams.sort
     
-    
+    anagrams.select do |element|
+      (@word.split("").sort) == (element.split("").sort)
+    end
   end
     
   
