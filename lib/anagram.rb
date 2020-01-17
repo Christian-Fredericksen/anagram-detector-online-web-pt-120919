@@ -9,7 +9,7 @@ class Anagram
   end
   
   
-  def self.match(anagrams)
+  def match(anagrams)
     @word.sort == anagrams.sort
     puts anagrams
   end
