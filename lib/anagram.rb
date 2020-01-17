@@ -10,7 +10,9 @@ class Anagram
   
   
   def self.match(anagrams)
-    
+    @word.sort == anagrams.sort
+    puts anagrams
+  end
     
   
 end 
