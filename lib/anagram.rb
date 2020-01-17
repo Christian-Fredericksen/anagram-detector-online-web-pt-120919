@@ -9,13 +9,11 @@ class Anagram
   end
   
   
-  def match.select  #(%w(anagrams))
-    # new_word = @word.split("")
-    # new_anagrams = anagrams.split("")
-    # new_word.sort == new_anagrams.sort
+  def match.select  (%w(anagrams))
+    new_word = @word.split("")
+    new_anagrams = anagrams.split("")
+    new_word.sort == new_anagrams.sort
     
-      (@word.split("").sort) == (element.split("").sort)
-    end
   end
     
   
