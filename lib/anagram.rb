@@ -9,7 +9,7 @@ class Anagram
   end
   
   
-  def match.select do |element| #(%w(anagrams))
+  def match #(%w(anagrams))
     # new_word = @word.split("")
     # new_anagrams = anagrams.split("")
     # new_word.sort == new_anagrams.sort
