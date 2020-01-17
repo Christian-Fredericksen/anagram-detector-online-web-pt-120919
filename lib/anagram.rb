@@ -10,9 +10,10 @@ class Anagram
   
   
   def match(anagrams)
-    new_word = @word.split("")
-    new_anagrams = anagrams.split("")
-    new_word.sort == new_anagrams.sort
+    # new_word = @word.split("")
+    # new_anagrams = anagrams.split("")
+    # new_word.sort == new_anagrams.sort
+    
     
   end
     
