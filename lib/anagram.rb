@@ -10,8 +10,10 @@ class Anagram
   
   
   def match(%w(anagrams))
-    @word.sort == anagrams.sort
-    puts anagrams
+    new_word = @word.split("")
+    new_anagrams = anagrams.split("")
+    new_word == new_anagrams
+    
   end
     
   
